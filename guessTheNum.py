@@ -1,16 +1,13 @@
-# Dan's number guessing game
 
-# Import modules
 import random
 
-# Intro
-print("Welcome number guessing game!")
 
-# Define variables
+print("Welcome to number guessing game!")
+
 guesses = 0
 number = random.randint(0, 10)
 
-# Main program loop
+
 while( guesses < 3 ):
     u_guess = int(input("Have a guess: "))
 
